@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: var(--font-playfair-display), system-ui, serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5.h6 {
+    font-family: var(--font-museo-moderno), system-ui, sans-serif;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
