@@ -25,7 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${museo_moderno.variable} ${playfair_display.variable} font-serif`}>
+        className={`${museo_moderno.variable} ${playfair_display.variable} font-serif`}
+      >
         {children}
       </body>
     </html>
