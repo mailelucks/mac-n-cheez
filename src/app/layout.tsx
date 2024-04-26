@@ -28,7 +28,9 @@ export default function RootLayout({
       <body
         className={`${museo_moderno.variable} ${playfair_display.variable} font-serif`}
       >
-        {children}
+        <main className="flex min-h-screen w-full flex-col items-start justify-start bg-stormy">
+          {children}
+        </main>
       </body>
     </html>
   );
