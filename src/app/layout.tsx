@@ -16,7 +16,7 @@ const museo_moderno = MuseoModerno({
 export const metadata: Metadata = {
   title: 'Mac & Cheese: a case study and celebration',
   description:
-    "A fanpage for one of the world's greatest comfortfoods: macaroni and cheese"
+    "A fanpage for one of the world's greatest comfort foods: macaroni and cheese"
 };
 
 export default function RootLayout({
